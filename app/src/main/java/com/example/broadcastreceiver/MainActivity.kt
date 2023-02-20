@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         val binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
+// master
 
         if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.O){
             val intentFilter = IntentFilter()
